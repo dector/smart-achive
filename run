@@ -1,2 +1,3 @@
-#!/usr/bin/env sh
-fish arc.fish $@
+#!/bin/bash
+
+deno run --allow-run arc.ts "$@"
